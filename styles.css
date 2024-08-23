@@ -1,6 +1,9 @@
 body{
     margin: 0;
 }
+h2{
+    text-align: center;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -43,6 +46,7 @@ a{
 }
 img{
     width: 300px;
+    /* align-items: center; */
 }
 button {
     background-color: #790016;
@@ -55,3 +59,31 @@ button {
     cursor: pointer;    
     
   }
+.flex-port{
+    display: flex;
+    justify-content: space-evenly;
+}
+.border{
+    border-style: solid;
+    border-color: #790016;
+    border-width: 5px;
+    background-color: antiquewhite;
+    padding: 100px;
+    flex-shrink: 0;
+}
+.quotes{
+    margin-top: 20px;
+    background-color: #E5E7EB;
+    padding: 8px;
+}
+.portfoilio{
+    margin-bottom: 20px;
+}
+
+
+.footer{
+    background-color: #790016;
+    padding: 4px;
+    color: #E5E7EB;
+    font-weight: 500px;
+}
