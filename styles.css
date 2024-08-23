@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #790016;     
+    font-weight: 800;
+    padding: 8px 16px;
+      
+
+}
+.logo{
+    color: wheat;
+    flex-shrink: 0;
+    font-size: 36px;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    color: wheat;
+}
+a{
+    text-decoration: none;
+    color: white;  
+}
+.footer{    
+    text-align: center;
+
+}
